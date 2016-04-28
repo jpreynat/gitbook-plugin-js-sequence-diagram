@@ -14,5 +14,15 @@
     "license": "Apache 2",
     "bugs": {
         "url": "https://github.com/gmassanek/gitbook-plugin-js-sequence-diagram/issues"
+    },
+    "gitbook": {
+        "properties": {
+            "theme": {
+                "type": "string",
+                "description": "",
+                "default": "simple",
+                "enum": [ "simple", "hand" ]
+            }
+        }
     }
 }
